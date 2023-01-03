@@ -1,0 +1,13 @@
+name: 'eStore homepage feature'
+description: 'Contains page and panel variant for the homepage.'
+type: module
+core_version_requirement: ^9.2 || ^10
+
+dependencies:
+  - drupal:block
+  - drupal:block_class
+  - drupal:block_content
+  - drupal:page_manager
+  - drupal:panels
+  - drupal:system
+  - drupal:views

@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5d0c4e6d-29f3-433d-af45-cbddf7a61cba'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - estore
+third_party_settings:
+  block_class:
+    classes: header-advertise
+id: middleheaderad
+theme: estore
+region: middle_header
+weight: 0
+provider: null
+plugin: 'block_content:5d0c4e6d-29f3-433d-af45-cbddf7a61cba'
+settings:
+  id: 'block_content:5d0c4e6d-29f3-433d-af45-cbddf7a61cba'
+  label: 'Middle header ad'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

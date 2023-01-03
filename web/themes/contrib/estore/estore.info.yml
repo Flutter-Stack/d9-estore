@@ -1,0 +1,32 @@
+name: eStore
+description: eStore is responsive mobile optimized, based on Bootstrap. Made by <a href="https://optasy.com" target="_blank">OPTASY</a> team.
+type: theme
+core_version_requirement: ^9.3 || ^10
+base theme: bootstrap
+
+# Libraries.
+libraries:
+  - 'estore/global-styling'
+  - 'estore/bootstrap-scripts'
+  - 'estore/stacktable'
+
+# Regions.
+regions:
+  top_header_right: 'Top Header Right'
+  left_middle_header: 'Left Middle Header'
+  middle_header: 'Middle Header'
+  right_middle_header: 'Right Middle Header'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer_first: 'Footer First Widget'
+  footer_second: 'Footer Second Widget'
+  footer_third: 'Footer Third Widget'
+  footer_fourth: 'Footer Fourth Widget'
+  footer_bottom_left: 'Footer Bottom Left'
+  footer_bottom_right: 'Footer Bottom Right'

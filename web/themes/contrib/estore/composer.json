@@ -1,0 +1,22 @@
+{
+  "name": "drupal/estore",
+  "description": "eStore is responsive mobile optimized, based on Bootstrap. Made by OPTASY team.",
+  "type": "drupal-theme",
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/estore",
+  "authors": [
+    {
+      "name": "Ivan Tibezh (tibezh)",
+      "homepage": "https://www.drupal.org/u/tibezh",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/estore",
+    "source": "http://cgit.drupalcode.org/estore"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/bootstrap": "^3.7"
+  }
+}
